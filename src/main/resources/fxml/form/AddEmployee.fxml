@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.project.pk.controllers.EmployeeCreateController">
+   <children>
+      <Label text="%add.employee.name" />
+      <Label layoutY="60.0" text="%add.employee.last" />
+      <Label layoutY="116.0" text="%add.employee.address" />
+      <Label layoutY="183.0" text="%add.employee.netincome" />
+      <Label layoutX="265.0" text="%add.employee.email" />
+      <Label layoutX="265.0" layoutY="60.0" text="%add.employee.phone" />
+      <TextField fx:id="firstName" layoutY="18.0" />
+      <TextField fx:id="lastName" layoutY="78.0" />
+      <TextField fx:id="address" layoutY="134.0" />
+      <TextField fx:id="netincome" layoutY="201.0" />
+      <TextField fx:id="email" layoutX="265.0" layoutY="18.0" />
+      <TextField fx:id="phone" layoutX="265.0" layoutY="78.0" />
+      <Button fx:id="saveEmployeeButton" layoutX="264.0" layoutY="168.0" mnemonicParsing="false" onAction="#saveEmployee" prefHeight="66.0" prefWidth="176.0" text="%add.save" />
+   </children>
+</Pane>
